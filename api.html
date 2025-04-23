@@ -1,0 +1,898 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant Website</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./chikee.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>  
+  </head>
+  <body>
+    <!-- header section start -->
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>Resto.</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#chefs">Chefs</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <i class="fa-regular fa-eye"></i>
+      </div>
+    </header>
+    <!-- header section end -->
+    <!-- search form -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        name=""
+        placeholder="search here..."
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- search form end -->
+    <!-- home section-start -->
+    <section class="home" id="home" >
+      <div class=" swiper-container  home-slider ">
+        <div class=" swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Chiken Salade Recipe</h3>
+              <p>
+              resulting in a perfectly chewy crust with just the right.
+              </p>
+              <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="image ">
+                <img
+                  src="./images/main dishes/buddha-bowl-9533507_1280.png"
+                
+                  alt=""
+                />
+              </div>
+          </div>
+          <div class=" swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>butter chicken recipe</h3>
+              <p>A must-order item on an Indian restaurant menu</p>
+              <a href="#" class="btn">Order Now</a>
+             
+            </div>
+            <div class="image">
+                <img
+                  src="./images/main dishes/sub-buzz-1009-1646440684-8-removebg-preview.png"
+               
+                  alt=""
+                />
+              </div>
+          </div>
+          <div class=" swiper-slide slide">
+            <div class="content">
+              <span>Our Special Dish</span>
+              <h3>Hottest Mashrome's Cheeze Pizza</h3>
+              <p>This mushroom and cheese pizza is the perfect balance of earthy and cream</p>
+              <a href="#" class="btn"> Order Now</a>
+            </div>
+            <div class="image">
+                <img
+                  src="./images/Popular dishes/AdobeStock_307195472_Preview-removebg-preview.png"
+                  
+                  alt=""
+                />
+              </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- home section end -->
+    <!-- dishes section start -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">Popular Dishes</h1>
+    
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" ><i class="fa-solid fa-heart"></i></a>
+          <a href="#"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <img src="./images/Popular dishes/9.png" alt=""  />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <!-- كرر البوكس 5 مرات مع تغييرات بسيطة في الصورة -->
+        <div class="box">
+          <div class="icons">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+          <a href="#"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <img src="./images/Popular dishes/5.png" alt=""  />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$19.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="box">
+          <div class="icons">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+          <a href="#" ><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <img src="./images/Popular dishes/6.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$30.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="box">
+          <div class="icons">
+            <a href="#" ><i class="fa-solid fa-heart"></i></a>
+          <a href="#" ><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <img src="./images/Popular dishes/8.png" alt=""  />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$22.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="box">
+          <div class="icons">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+          <a href="#" ><i class="fa-regular fa-eye"></i></a>
+          </div>
+          <img src="./images/Popular dishes/7.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$17.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+        <div class="box">
+          <div class="icons">
+            <a href="#"><i class="fa-solid fa-heart"></i></a>
+          <a href="#"><i class="fa-regular fa-eye"></i></a>
+          </div>
+          
+          <img src="./images/Popular dishes/AdobeStock_302219263_Preview-removebg-preview.png" alt="" />
+          <h3>Tasty Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$12.99</span>
+          <a href="#" class="btn">Add to Cart</a>
+        </div>
+      </div>
+    </section>
+    <!-- popular dishes section ends -->
+     <!-- section-about start -->
+      <section class="about" id="about">
+        <h3 class="sub-heading" data-aos="fade-up" data-aos-duration="1500" >about Us</h3>
+        <h1 class="heading" data-aos="fade-up" data-aos-duration="1500">Why Choose Us ?</h1>
+        <div class="row">
+          <div class="image"  data-aos="zoom-in" data-aos-duration="2000" >
+            <img src="./images/Popular dishes/9.png" alt="" />
+          </div>
+          <div class="content">
+            <h3>Best Food in the Country</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              molestias, recusandae, quod voluptates repellendus quia
+              perspiciatis quae natus dolores eaque consequuntur atque
+              repellat?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              molestias, recusandae, quod voluptates repellendus quia
+              perspiciatis quae natus dolores eaque consequuntur atque
+              repellat?
+            </p>
+
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-dollar-sign"></i>
+                <span>easy payment</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 Service</span>
+              </div>
+              <div class="icons">
+                <i class="fa-solid fa-comment"></i>
+                <span>let Us a Comment</span>
+              </div>
+            </div>
+            <a href="#" class="btn"> learn more</a>
+          </div>
+          
+        </div>
+      </section>
+      <!-- section-about ends -->
+         <!-- section chefs-start -->
+          <section class="chefs" id="chefs">
+            <div class="heading-container">
+                <h3 class="sub-heading">Our Master Chefs</h3>
+                <h1 class="heading">Experience & Expertise</h1>
+                <p class="heading-description">Meet our talented team of professional chefs who bring passion, creativity, and years of culinary expertise to create extraordinary dining experiences.</p>
+            </div>
+            
+            <div class="chef-container">
+                <div class="chef-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="image-container">
+                        <img src="./images/main dishes/cooke.jpg" alt="Chef">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="chef-speciality">
+                            <i class="fas fa-utensils"></i>
+                            <h4>International Cuisine Expert</h4>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>John Smith</h3>
+                        <span><i class="fas fa-star"></i> Master Chef</span>
+                        <p>Specializing in international cuisine with over 15 years of experience in luxury restaurants.</p>
+                    </div>
+                </div>
+
+                <div class="chef-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="image-container">
+                        <img src="./images/main dishes/cook-holding-plate-with-salad-near-service-bell.jpg" alt="Chef">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="chef-speciality">
+                            <i class="fas fa-fire"></i>
+                            <h4>Modern Fusion Expert</h4>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Sarah Johnson</h3>
+                        <span><i class="fas fa-award"></i> Executive Chef</span>
+                        <p>Expert in modern fusion cuisine and innovative cooking techniques.</p>
+                    </div>
+                </div>
+
+                <div class="chef-card" data-aos="fade-up" data-aos-delay="450">
+                    <div class="image-container">
+                        <img src="./images/main dishes/close-up-chef-decorating-dish-after-cooking.jpg" alt="Chef">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="chef-speciality">
+                            <i class="fas fa-birthday-cake"></i>
+                            <h4>Pastry Arts Specialist</h4>
+                        </div>
+                    </div>
+                    <div class="chef-info">
+                        <h3>Michael Chen</h3>
+                        <span><i class="fas fa-medal"></i> Pastry Chef</span>
+                        <p>Renowned for creating exquisite desserts and pastries with artistic presentation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section chefs-ends -->
+         <!-- menu section starts -->
+          <section class="menu" id="menu">
+            <h3 class="sub-heading">Our Menu</h3>
+            <h1 class="heading">Today's Special</h1>
+
+            <div class="menu-container">
+                <div class="menu-tabs">
+                    <div class="tab active" data-category="all"> 
+                        <span>All</span>
+                    </div>
+                    <div class="tab" data-category="breakfast">
+                        
+                        <span>Breakfast</span>
+                    </div>
+                    <div class="tab" data-category="lunch">
+                        
+                        <span>Lunch</span>
+                    </div>
+                    <div class="tab" data-category="dinner">
+                        <span>Dinner</span>
+                    </div>
+                </div>
+
+                <div class="menu-items">
+                    <!-- All Menu Items (4 cards that will show in "All" category) -->
+                    <div class="menu-item all-item">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/5.png" alt="Fresh Breakfast Special">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Fresh Breakfast Special</h3>
+                            <p>90 calories</p>
+                            <div class="item-details">
+                                <span class="type">Continental</span>
+                                <span class="portion">1 Person</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$12.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item all-item">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/6.png" alt="Lunch Deluxe">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Lunch Deluxe</h3>
+                            <p>150 calories</p>
+                            <div class="item-details">
+                                <span class="type">Special</span>
+                                <span class="portion">2 Persons</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$16.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item all-item">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/8.png" alt="Dinner Special">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Dinner Special</h3>
+                            <p>180 calories</p>
+                            <div class="item-details">
+                                <span class="type">Premium</span>
+                                <span class="portion">2 Persons</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$19.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item all-item">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/9.png" alt="Chef's Special">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Chef's Special</h3>
+                            <p>200 calories</p>
+                            <div class="item-details">
+                                <span class="type">Signature</span>
+                                <span class="portion">2 Persons</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$24.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Breakfast Item -->
+                    <div class="menu-item breakfast">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/5.png" alt="Morning Delight">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <h3>Morning Delight</h3>
+                            <p>90 calories</p>
+                            <div class="item-details">
+                                <span class="type">Continental</span>
+                                <span class="portion">1 Person</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$12.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Lunch Item -->
+                    <div class="menu-item lunch">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/6.png" alt="Lunch Supreme">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Lunch Supreme</h3>
+                            <p>150 calories</p>
+                            <div class="item-details">
+                                <span class="type">Special</span>
+                                <span class="portion">2 Persons</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$16.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Dinner Item -->
+                    <div class="menu-item dinner">
+                        <div class="item-image">
+                            <img src="./images/Popular dishes/8.png" alt="Royal Dinner">
+                        </div>
+                        <div class="item-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>Royal Dinner</h3>
+                            <p>180 calories</p>
+                            <div class="item-details">
+                                <span class="type">Premium</span>
+                                <span class="portion">2 Persons</span>
+                            </div>
+                            <div class="price-add">
+                                <span class="price">$19.99</span>
+                                <button class="add-to-cart">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- menu-end -->
+           <!-- review-start -->
+            <section class="review" id="review">
+                <h3 class="sub-heading">Customer's Review</h3>
+                <h1 class="heading">What They Say</h1>
+                <div class="swiper review-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide">
+                            <div class="user">
+                                <img src="./assets/images/testimonials/t1.jpg" alt="">
+                                <div class="user-info">
+                                    <h3>John Smith</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text">The food here is absolutely amazing! The flavors are authentic and the service is exceptional. I particularly loved their special dishes.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <div class="user">
+                                <img src="./assets/images/testimonials/t2.jpg" alt="">
+                                <div class="user-info">
+                                    <h3>Sarah Johnson</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text">Best restaurant in town! The ambiance is perfect for both casual dining and special occasions. Their menu variety is impressive.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <div class="user">
+                                <img src="./assets/images/testimonials/t3.jpg" alt="">
+                                <div class="user-info">
+                                    <h3>Michael Brown</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text">The chef's special dishes are out of this world! Every visit here is a culinary adventure. Highly recommend their signature dishes.</p>
+                        </div>
+
+                        <div class="swiper-slide slide">
+                            <div class="user">
+                                <img src="./assets/images/testimonials/t4.jpg" alt="">
+                                <div class="user-info">
+                                    <h3>Emma Davis</h3>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text">Great atmosphere and even better food! The staff is friendly and attentive. Perfect place for family gatherings.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+          </section>
+          <!-- review-end -->
+           <!-- order-start -->
+          <section class="order" id="order">
+            <h3 class="sub-heading">Order Now</h3>
+            <h1 class="heading">Free and Fast</h1>
+            <form action="">
+              <div class="input-box">
+                <div class="input">
+                  <span>Your Name</span>
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input">
+                  <span>Your Number</span>
+                  <input type="number" placeholder="Enter your number">
+                </div>
+              </div>
+
+              <div class="input-box">
+                <div class="input">
+                  <span>Your order</span>
+                  <input type="text" placeholder="Enter food name">
+                </div>
+                <div class="input">
+                  <span>Additional Food</span>
+                  <input type="number" placeholder="Extra with food">
+                </div>
+              </div>
+
+              <div class="input-box">
+                <div class="input">
+                  <span>How much</span>
+                  <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                  <span>date and time</span>
+                  <input type="datetime-local">
+                </div>
+              </div>
+
+              <div class="input-box">
+                <div class="input">
+                  <span>Your Address</span>
+                  <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                  <span>Your Message</span>
+                  <textarea name="" placeholder="Enter your Message" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+              <button class="btn" type="submit"> Order Now</button>
+            </form>
+          </section>
+          <!-- order-end -->
+           <!--footer start -->
+           <section class="footer" id="contact">
+            <div class="box-container">
+                <div class="box">
+                    <h3>Quick Links</h3>
+                    <a href="#home"><i class="fas fa-chevron-right"></i> Home</a>
+                    <a href="#dishes"><i class="fas fa-chevron-right"></i> Dishes</a>
+                    <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+                    <a href="#menu"><i class="fas fa-chevron-right"></i> Menu</a>
+                    <a href="#review"><i class="fas fa-chevron-right"></i> Review</a>
+                    <a href="#order"><i class="fas fa-chevron-right"></i> Order</a>
+                </div>
+    
+                <div class="box">
+                    <h3>Contact Info</h3>
+                    <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
+                    <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
+                    <a href="#"><i class="fas fa-envelope"></i> info@restaurant.com</a>
+                    <a href="#"><i class="fas fa-envelope"></i> support@restaurant.com</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> New York, USA - 10001</a>
+                </div>
+    
+                <div class="box">
+                    <h3>Opening Hours</h3>
+                    <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 10:00 PM</p>
+                    <p><i class="fas fa-clock"></i> Saturday: 10:00 AM - 11:00 PM</p>
+                    <p><i class="fas fa-clock"></i> Sunday: 11:00 AM - 9:00 PM</p>
+                </div>
+    
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="credit">
+                Created by <span>Chef gastronomique</span> | All Rights Reserved
+            </div>
+        </section>
+          <!-- footer-end -->
+          
+           
+
+    <!-- js -->
+    <script src="./cheken.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script>
+        // Menu tabs functionality with smooth transitions
+        const menuTabs = document.querySelectorAll('.menu-tabs .tab');
+        const menuItems = document.querySelectorAll('.menu-item');
+        const allItems = document.querySelectorAll('.menu-item.all-item');
+
+        menuTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                menuTabs.forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                // Get selected category
+                const category = tab.getAttribute('data-category');
+                
+                // Hide all items first with fade out
+                menuItems.forEach(item => {
+                    item.style.opacity = '0';
+                    item.style.transform = 'translateY(20px)';
+                });
+
+                // Show relevant items with fade in after a small delay
+                setTimeout(() => {
+                    if (category === 'all') {
+                        // Show all 4 cards for "All" category
+                        allItems.forEach(item => {
+                            item.style.display = 'block';
+                            setTimeout(() => {
+                                item.style.opacity = '1';
+                                item.style.transform = 'translateY(0)';
+                            }, 50);
+                        });
+                        // Hide other category items
+                        menuItems.forEach(item => {
+                            if (!item.classList.contains('all-item')) {
+                                item.style.display = 'none';
+                            }
+                        });
+                    } else {
+                        // Hide all items first
+                        menuItems.forEach(item => {
+                            item.style.display = 'none';
+                        });
+                        // Show only the specific category item
+                        const categoryItem = document.querySelector(`.menu-item.${category}`);
+                        if (categoryItem) {
+                            categoryItem.style.display = 'block';
+                            setTimeout(() => {
+                                categoryItem.style.opacity = '1';
+                                categoryItem.style.transform = 'translateY(0)';
+                            }, 50);
+                        }
+                    }
+                }, 300);
+            });
+        });
+
+        // Initialize with 'all' category active
+        menuTabs[0].click();
+
+        // Add to cart functionality with enhanced animation
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const menuItem = this.closest('.menu-item');
+                const itemName = menuItem.querySelector('h3').textContent;
+                const itemPrice = menuItem.querySelector('.price').textContent;
+                
+                // Add click animation
+                this.style.transform = 'scale(0.8)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 200);
+
+                // Create and show notification
+                const notification = document.createElement('div');
+                notification.className = 'cart-notification';
+                notification.innerHTML = `
+                    <i class="fas fa-check-circle"></i>
+                    <p>${itemName} added to cart</p>
+                    <p class="price">${itemPrice}</p>
+                `;
+                document.body.appendChild(notification);
+
+                // Remove notification after 3 seconds
+                setTimeout(() => {
+                    notification.style.opacity = '0';
+                    setTimeout(() => {
+                        notification.remove();
+                    }, 300);
+                }, 2700);
+            });
+        });
+
+        // Add CSS for animations
+        const style = document.createElement('style');
+        style.textContent = `
+            .menu-item {
+                opacity: 0;
+                transform: translateY(20px);
+                transition: all 0.3s ease;
+            }
+
+            .cart-notification {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--primary);
+                color: white;
+                padding: 15px 25px;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                z-index: 1000;
+                opacity: 1;
+                transform: translateX(0);
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            }
+
+            .cart-notification i {
+                font-size: 20px;
+            }
+
+            .cart-notification p {
+                margin: 0;
+                font-size: 16px;
+            }
+
+            .cart-notification .price {
+                font-weight: bold;
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+    <script>
+        // Initialize Swiper for reviews
+        var reviewSwiper = new Swiper(".review-slider", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+  </body>
+</html>
